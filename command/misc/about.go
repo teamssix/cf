@@ -3,13 +3,8 @@ package misc
 import (
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/command"
 	"github.com/teamssix/cf/pkg/cloud"
 )
-
-func init() {
-	Command.RootCmd.AddCommand(aboutCmd)
-}
 
 var aboutCmd = &cobra.Command{
 	Use:   "about",

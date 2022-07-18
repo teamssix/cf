@@ -2,11 +2,11 @@ package alibaba
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/command/scan/cmd"
+	"github.com/teamssix/cf/command"
 )
 
 func init() {
-	cmd.RootCmd.AddCommand(alibabaCmd)
+	Command.RootCmd.AddCommand(alibabaCmd)
 }
 
 var alibabaCmd = &cobra.Command{

@@ -2,11 +2,11 @@ package tencent
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/teamssix/cf/command/scan/cmd"
+	"github.com/teamssix/cf/command"
 )
 
 func init() {
-	cmd.RootCmd.AddCommand(tencentCmd)
+	Command.RootCmd.AddCommand(tencentCmd)
 }
 
 var tencentCmd = &cobra.Command{

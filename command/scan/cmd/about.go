@@ -3,11 +3,12 @@ package cmd
 import (
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
+	"github.com/teamssix/cf/command"
 	"github.com/teamssix/cf/pkg/cloud"
 )
 
 func init() {
-	RootCmd.AddCommand(aboutCmd)
+	Command.RootCmd.AddCommand(aboutCmd)
 }
 
 var aboutCmd = &cobra.Command{

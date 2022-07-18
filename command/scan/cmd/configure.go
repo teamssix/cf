@@ -4,11 +4,12 @@ import (
 	"github.com/gookit/color"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
+	"github.com/teamssix/cf/command"
 	"github.com/teamssix/cf/pkg/util/cmdutil"
 )
 
 func init() {
-	RootCmd.AddCommand(configureCmd)
+	Command.RootCmd.AddCommand(configureCmd)
 	configureCmd.AddCommand(getconfigCmd)
 }
 

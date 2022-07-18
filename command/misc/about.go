@@ -1,4 +1,4 @@
-package cmd
+package misc
 
 import (
 	"github.com/gookit/color"

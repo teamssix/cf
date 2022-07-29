@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/glebarez/sqlite"
+	"github.com/cloudquery/sqlite"
 	"github.com/teamssix/cf/pkg/util"
 	"github.com/teamssix/cf/pkg/util/cmdutil"
 	"gorm.io/gorm"
